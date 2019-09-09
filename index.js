@@ -4,13 +4,13 @@ function updateObjectWithKeyAndValue(object, key, value){
   var newObj = {};
   Object.assign(newObj,object,{[key]:value})
   return newObj
-  
+
 };
 
 function destructivelyUpdateObjectsWithKeyAndValue(object, key, value){
   object[key] = value
   return object
-  
+
 };
 
 function deleteFromObjectByKey(object, key){
