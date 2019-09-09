@@ -6,7 +6,7 @@ function updateObjectWithKeyAndValue(object,key, value) {
   return newObj
 };
 
-function destructivelyUpdateObjectsWithKeyAndValut(object, key value){
-  object[key] = value
-  return object
-}
+// function destructivelyUpdateObjectsWithKeyAndValut(object, key value){
+//   object[key] = value
+//   return object
+// }
